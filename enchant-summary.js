@@ -99,12 +99,12 @@ const hasExclude = {
                 groupName = item.can_grouping? groupIt : key;
               }
             } else if (groupIt === '天地') {
-              // 天地崩壊はひっかけない
+              // 漢字武器判定なので天地崩壊はひっかけない
               if (enchantName.includes(groupIt) && !enchantName.includes('天地崩壊')) {
                 groupName = item.can_grouping? groupIt : key;
               }
             } else if (groupIt === '増幅') {
-              // 天地崩壊はひっかけない
+              // 増幅判定なので増幅された怨望はひっかけない
               if (enchantName.includes(groupIt) && !enchantName.includes('怨望')) {
                 groupName = item.can_grouping? groupIt : key;
               }
