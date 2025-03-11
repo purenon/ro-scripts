@@ -1,6 +1,7 @@
 # ro-scripts
 RO関連のリポジトリ
-
+ブログの記事のために使用
+https://yakitoriteisyoku.exblog.jp/
 
 # job-items.js
 職装備をhtmlのtableタグで出力するためのスクリプト
